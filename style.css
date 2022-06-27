@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box; 
-    font-family: cursive;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 }
 body {
     display: flex; 
@@ -35,16 +35,20 @@ input[type=text], select {
     text-align: center;
 }
 .container pre { 
-    font-size: 20px;
+    font-size: 25px;
     font-family: cursive;}
  
 .subject {
     width: -webkit-fill-available;
-    font-size: 20px;
+    font-size: 30px;
     padding: 12px 20px;
 }
 div {
   border-radius: 10px;
   background-color: #f2f2f2d4;
   padding: 20px;
+	font-family: Consolas;
+}
+.b {
+	font-size: 25px;
 }
