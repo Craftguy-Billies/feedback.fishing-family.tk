@@ -6,10 +6,10 @@ body {
     display: flex; 
     align-items: center; 
     justify-content: center; 
-    background: linear-gradient(-30deg, #607D8B 50%, #000000  80%)
+    background-color: #44B229;
 }
 .button {
-  background-color: #42a5f5;
+  background-color: #B3FFEC;
   border: none;
   color: white;
   padding: 8px 0px;
@@ -25,7 +25,7 @@ input[type=text], select {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid #000;
   border-radius: 4px;
   box-sizing: border-box;
   font-size: 20px;
@@ -51,4 +51,34 @@ div {
 }
 .b {
 	font-size: 25px;
+}
+
+textarea {
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+botton {
+	background-color: #B1FFE0;
+}
+.card-header {
+	background-color: #B0FFEB;
+	border-radius: 0px;
+}
+.card-body {
+	background-color: #F0FFC2;
+	border-radius: 0px;
+}
+.form-group {
+	background-color: #BBFFDD;
+	border-radius: 0px;
+}
+.container {
+	background-color: #F7D1FF
+}
+.footer {
+	background-color: #A4F3FF;
+	border-radius: 0px;
+}
+.card {
+	background-color: #AEB9FF;
 }
